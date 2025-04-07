@@ -1,0 +1,4 @@
+instructor_id,schedule_id,course_id,day_of_week,year,month,start_time,end_time,building,batch_id
+STAFF1,1,CS101,Monday,2023,9,09:00,10:30,Main,BATCH1
+STAFF2,2,MATH101,Tuesday,2023,9,11:00,12:30,Main,BATCH1
+STAFF3,3,ENG101,Wednesday,2023,9,13:00,14:30,East,BATCH1

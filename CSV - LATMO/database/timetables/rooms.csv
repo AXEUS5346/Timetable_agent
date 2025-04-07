@@ -1,0 +1,4 @@
+room_id,room_name,building,capacity,has_projector,has_computers
+R101,Lecture Hall 1,Main,100,yes,no
+R102,Computer Lab,Main,30,yes,yes
+R103,Seminar Room,East,50,yes,no

@@ -1,0 +1,4 @@
+enrollment_id,student_id,course_id,semester,year,enrollment_date
+E001,S001,CS101,Fall,2023,2023-08-15
+E002,S002,MATH101,Fall,2023,2023-08-16
+E003,S003,ENG101,Fall,2023,2023-08-17

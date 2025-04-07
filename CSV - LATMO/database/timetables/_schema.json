@@ -1,0 +1,111 @@
+{
+  "default": {
+    "attributes": [
+      "timetable_id",
+      "version",
+      "timestamp",
+      "course",
+      "room",
+      "time",
+      "day",
+      "instructor",
+      "created_by"
+    ],
+    "required": [
+      "timetable_id",
+      "course"
+    ]
+  },
+  "courses": {
+    "attributes": [
+      "course_id",
+      "course_name",
+      "instructor",
+      "department"
+    ],
+    "required": [
+      "course_id"
+    ]
+  },
+  "students": {
+    "attributes": [
+      "student_id",
+      "student_name",
+      "age",
+      "year_level",
+      "email",
+      "course_id",
+      "batch_id"
+    ],
+    "required": [
+      "student_id"
+    ]
+  },
+  "enrollments": {
+    "attributes": [
+      "enrollment_id",
+      "student_id",
+      "course_id",
+      "semester",
+      "year",
+      "enrollment_date"
+    ],
+    "required": [
+      "enrollment_id"
+    ]
+  },
+  "timetable": {
+    "attributes": [
+      "timetable_id",
+      "version",
+      "timestamp",
+      "course_id",
+      "room_id",
+      "time_slot",
+      "day",
+      "staff_id",
+      "created_by"
+    ],
+    "required": [
+      "timetable_id"
+    ]
+  },
+  "staff_schedules": {
+    "attributes": [
+      "instructor_id",
+      "schedule_id",
+      "course_id",
+      "day_of_week",
+      "year",
+      "month",
+      "start_time",
+      "end_time",
+      "building",
+      "batch_id"
+    ],
+    "required": [
+      "instructor_id"
+    ]
+  },
+  "rooms": {
+    "attributes": [
+      "room_id",
+      "room_name",
+      "building",
+      "capacity",
+      "has_projector",
+      "has_computers"
+    ],
+    "required": [
+      "room_id"
+    ]
+  },
+  "random": {
+    "attributes": [
+      "| Name            | Age | Email                   | Batch ID | Course            | Joining Date |"
+    ],
+    "required": [
+      "| Name            | Age | Email                   | Batch ID | Course            | Joining Date |"
+    ]
+  }
+}
